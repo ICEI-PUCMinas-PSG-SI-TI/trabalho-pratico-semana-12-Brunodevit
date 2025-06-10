@@ -1,0 +1,222 @@
+body {
+  font-family: Arial, sans-serif;
+  
+  background-color: #121212;
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+  background-color: rgba(30, 30, 30, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px blue;
+}
+
+input, select, textarea{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+#fundoimg{
+
+    background-image: url('pipoca-derramada-perto-de-claquete_23-2147803886.avif');
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    mask-image: linear-gradient(to bottom, transparent 2%, black 80%, transparent 100%);
+    height: 900px;
+
+}
+
+button {
+  background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 10px !important;
+    box-shadow: 0 0 10px blue;
+    padding: 5px 10px;
+    
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #222;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+img {
+  border-radius: 10px;
+  width: 170px; 
+  height: 250px;
+}
+
+label{
+
+    color: white;
+
+}
+.item-card {
+  background-color: rgba(30, 30, 30, 0.9);
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px blue;
+  list-style: none;
+}
+
+.item-image {
+  max-width: 120px;
+  border-radius: 10px;
+  margin-right: 15px;
+  box-shadow: 0 0 8px #2196f3;
+}
+
+.descricao-text {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: rgba(50, 50, 50, 0.7);
+  border-radius: 6px;
+  flex: 1;
+  color: #ddd;
+}
+
+.item-card {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0 0 10px blue;
+}
+
+.item-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.item-meta {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.item-content {
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.item-img {
+  width: 170px; 
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.item-descricao {
+  flex: 1;
+  padding: 10px;
+  background-color: #2a2a2a;
+  border-radius: 5px;
+}
+
+.item-actions {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.btn-editar,
+.btn-excluir {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-editar {
+  background-color: #007bff;
+}
+
+.btn-excluir {
+  background-color: #dc3545;
+}
+
+.form-box {
+  background-color: rgba(30, 30, 30, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px blue;
+  max-width: 450px;
+  margin: auto;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.form-box label {
+  font-weight: bold;
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: white;
+}
+
+.form-box textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form-box button {
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.form-box button:hover {
+  background-color: #0057d8;
+}
+
+@media screen and (max-width: 575px){
+
+
+    .item-img{
+
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-bottom: 10px;
+
+    }
+
+
+}
